@@ -1,2 +1,2 @@
 # boater-exam
-Python script for automating navigation for www.boaterexam.como
+Python script for automating navigation for www.boaterexam.com
