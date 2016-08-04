@@ -1,6 +1,10 @@
+from pymsgbox import password as prompt_password, prompt as prompt_username
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+
+username = prompt_username(text='Enter email address', title='User Email Address')
+password = prompt_password(text='Enter your password', title='User Password', mask='*')
 
 # Website logon page
 driver = webdriver.Firefox()
@@ -9,10 +13,10 @@ time.sleep(1)
 
 # Input username
 input_username = driver.find_element_by_id("UserName")
-input_username.send_keys('brandenchuarnold@gmail.com')
+input_username.send_keys(username)
 # Input password
 input_password = driver.find_element_by_id("Password")
-input_password.send_keys('TDNRXJSE')
+input_password.send_keys(password)
 # Press Enter
 input_password.send_keys(Keys.ENTER)
 time.sleep(1)
