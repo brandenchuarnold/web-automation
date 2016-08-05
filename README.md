@@ -1,2 +1,2 @@
-# boater-exam
+# web-automation
 Python scripts for website automation
