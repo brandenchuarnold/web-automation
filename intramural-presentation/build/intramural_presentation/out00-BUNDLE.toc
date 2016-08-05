@@ -1,0 +1,3 @@
+([('intramural_presentation',
+   '/Users/brandenarnold/stash/boater-exam/intramural-presentation/dist/intramural_presentation',
+   'EXECUTABLE')],)

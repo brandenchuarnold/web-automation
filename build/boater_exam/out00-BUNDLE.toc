@@ -1,3 +1,0 @@
-([('boater_exam',
-   '/Users/brandenarnold/stash/boater-exam/dist/boater_exam',
-   'EXECUTABLE')],)
