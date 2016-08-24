@@ -1,3 +1,4 @@
+from pymsgbox import prompt
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
@@ -5,7 +6,10 @@ from time import sleep
 # Load login
 driver = webdriver.Chrome()
 driver.maximize_window()
-driver.get("https://canvas.vt.edu/courses/36155/assignments/80298")
+url = prompt(title="URL to Presentation",
+             text="Enter url for presentation if not doing default presentation for all participants",
+             default="https://canvas.vt.edu/courses/36155/assignments/80298")
+driver.get(url)
 
 # Wait for user to log in
 grades_button = None

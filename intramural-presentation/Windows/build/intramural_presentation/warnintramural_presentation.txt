@@ -1,14 +1,3 @@
-missing module named __builtin__.open - imported by __builtin__, tarfile
-missing module named sys.modules - imported by sys, dummy_threading
-missing module named sys.getwindowsversion - imported by sys, platform
-missing module named sys.py3kwarning - imported by sys, httplib
-missing module named unicodedata.ucd_3_2_0 - imported by unicodedata, stringprep, encodings.idna
-missing module named _sre.MAXREPEAT - imported by _sre, sre_constants
-missing module named _warnings.warn_explicit - imported by _warnings, warnings
-missing module named _warnings.filters - imported by _warnings, warnings
-missing module named _warnings.once_registry - imported by _warnings, warnings
-missing module named _warnings.default_action - imported by _warnings, warnings
-missing module named _warnings.warn - imported by _warnings, warnings
 missing module named _subprocess.STD_OUTPUT_HANDLE - imported by _subprocess, subprocess
 missing module named _subprocess.CREATE_NEW_PROCESS_GROUP - imported by _subprocess, subprocess
 missing module named _subprocess.STD_INPUT_HANDLE - imported by _subprocess, subprocess
@@ -48,6 +37,8 @@ missing module named _weakref.ProxyType - imported by _weakref, weakref
 missing module named _weakref.CallableProxyType - imported by _weakref, weakref
 missing module named _hashlib.pbkdf2_hmac - imported by _hashlib, hashlib
 missing module named copy.deepcopy - imported by copy, weakref
+missing module named org.PyStringMap - imported by org, copy
+missing module named org - imported by copy
 missing module named exceptions.ReferenceError - imported by exceptions, weakref
 missing module named binascii.hexlify - imported by binascii, random
 missing module named math.sin - imported by math, random
@@ -73,6 +64,10 @@ missing module named _io.BufferedRWPair - imported by _io, io
 missing module named _io.TextIOWrapper - imported by _io, io
 missing module named _io.UnsupportedOperation - imported by _io, io
 missing module named readline - imported by cmd, pdb
+missing module named strop.whitespace - imported by strop, string
+missing module named strop.maketrans - imported by strop, string
+missing module named strop.lowercase - imported by strop, string
+missing module named strop.uppercase - imported by strop, string
 missing module named _functools.partial - imported by _functools, functools
 missing module named _functools.reduce - imported by _functools, functools
 missing module named errno.ENOENT - imported by errno, gettext
@@ -87,6 +82,10 @@ missing module named binascii.a2b_qp - imported by binascii, quopri
 missing module named 'org.python'.PyStringMap - imported by 'org.python', pickle
 missing module named 'org.python' - imported by pickle, xml.sax
 missing module named 'org.python'.imp - imported by 'org.python', xml.sax
+missing module named _sre.MAXREPEAT - imported by _sre, sre_constants
+missing module named array.array - imported by array, httplib
+missing module named re._compile - imported by re, sre
+missing module named re.__all__ - imported by re, sre
 missing module named struct.calcsize - imported by struct, ctypes
 missing module named _struct.__doc__ - imported by _struct, struct
 missing module named _struct._clearcache - imported by _struct, struct
@@ -95,6 +94,11 @@ missing module named threading.RLock - imported by threading, _threading_local
 missing module named threading.current_thread - imported by threading, _threading_local
 missing module named time.time - imported by time, threading
 missing module named os.urandom - imported by os, random
+missing module named _warnings.warn_explicit - imported by _warnings, warnings
+missing module named _warnings.filters - imported by _warnings, warnings
+missing module named _warnings.once_registry - imported by _warnings, warnings
+missing module named _warnings.default_action - imported by _warnings, warnings
+missing module named _warnings.warn - imported by _warnings, warnings
 missing module named riscosenviron._Environ - imported by riscosenviron, os
 missing module named riscosenviron - imported by os
 missing module named riscospath - imported by os
@@ -114,15 +118,11 @@ missing module named pwd.getpwnam - imported by pwd, shutil
 missing module named posix._exit - imported by posix, os
 missing module named posix - imported by os
 missing module named resource - imported by posix
-missing module named strop.whitespace - imported by strop, string
-missing module named strop.maketrans - imported by strop, string
-missing module named strop.lowercase - imported by strop, string
-missing module named strop.uppercase - imported by strop, string
-missing module named org.PyStringMap - imported by org, copy
-missing module named org - imported by copy
-missing module named array.array - imported by array, httplib
-missing module named re._compile - imported by re, sre
-missing module named re.__all__ - imported by re, sre
+missing module named __builtin__.open - imported by __builtin__, tarfile
+missing module named sys.modules - imported by sys, dummy_threading
+missing module named sys.getwindowsversion - imported by sys, platform
+missing module named sys.py3kwarning - imported by sys, httplib
+missing module named unicodedata.ucd_3_2_0 - imported by unicodedata, stringprep, encodings.idna
 missing module named codecs.mbcs_encode - imported by codecs, encodings.mbcs
 missing module named codecs.mbcs_decode - imported by codecs, encodings.mbcs
 missing module named time.sleep - imported by time, threading, C:\Users\Branden\stash\web-automation\intramural-presentation\Windows\intramural_presentation.py
